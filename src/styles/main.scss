@@ -1,0 +1,17 @@
+@import 'reset';
+@import 'variables';
+@import 'layout';
+
+// Breakpoint desktop
+@media (min-width: 900px) {
+  .app {
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 24px;
+    box-shadow: 0 4px 32px #0001;
+  }
+  .header {
+    text-align: left;
+    padding: 2rem 3rem 5rem 3rem;
+  }
+}
